@@ -1,0 +1,14 @@
+service: email-sender
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: eu-central-1
+
+functions:
+  sendEmail:
+    handler: index.handler
+    events:
+      - http:
+          path: sendForm
+          method: post
