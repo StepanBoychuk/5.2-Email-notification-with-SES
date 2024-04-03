@@ -1,0 +1,21 @@
+{
+  "name": "5.2-email-notification-with-ses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.foxminded.ua:foxstudent106145/5.2-email-notification-with-ses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1590.0",
+    "dotenv": "^16.4.5",
+    "joi": "^17.12.2"
+  }
+}
